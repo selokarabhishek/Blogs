@@ -6,11 +6,21 @@ import os
 import yaml
 from pathlib import Path
 from typing import Dict, Any
-from dotenv import load_dotenv
-from loguru import logger
+import logging
 
-# Load environment variables
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    logging.warning("python-dotenv not installed. Environment variables from .env will not be loaded.")
+    def load_dotenv():
+        pass
+
+try:
+    from loguru import logger
+except ImportError:
+    # Fallback to standard logging
+    logger = logging.getLogger(__name__)
 
 # Project root directory
 PROJECT_ROOT = Path(__file__).parent.parent

@@ -17,7 +17,13 @@ except ImportError:
     logging.warning("Docling not installed. PDF processing will be limited.")
     DocumentConverter = None
 
-from tqdm import tqdm
+try:
+    from tqdm import tqdm
+except ImportError:
+    # Fallback: simple progress indicator
+    def tqdm(iterable, desc=None, disable=False):
+        """Simple fallback for tqdm"""
+        return iterable
 
 logger = logging.getLogger(__name__)
 

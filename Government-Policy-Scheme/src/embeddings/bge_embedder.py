@@ -5,9 +5,14 @@ Multilingual embedding model optimized for retrieval tasks
 
 import logging
 from typing import List, Union, Optional
-import numpy as np
 from pathlib import Path
 import pickle
+
+try:
+    import numpy as np
+except ImportError:
+    logging.error("NumPy is required. Install with: pip install numpy")
+    raise
 
 try:
     from FlagEmbedding import BGEM3FlagModel
@@ -15,7 +20,13 @@ except ImportError:
     logging.warning("FlagEmbedding not installed. Install with: pip install FlagEmbedding")
     BGEM3FlagModel = None
 
-from tqdm import tqdm
+try:
+    from tqdm import tqdm
+except ImportError:
+    # Fallback: simple progress indicator
+    def tqdm(iterable, desc=None, disable=False):
+        """Simple fallback for tqdm"""
+        return iterable
 
 logger = logging.getLogger(__name__)
 

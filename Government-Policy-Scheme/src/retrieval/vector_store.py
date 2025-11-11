@@ -24,8 +24,19 @@ except ImportError:
     logging.warning("Qdrant client not installed. Install with: pip install qdrant-client")
     QdrantClient = None
 
-import numpy as np
-from tqdm import tqdm
+try:
+    import numpy as np
+except ImportError:
+    logging.error("NumPy is required. Install with: pip install numpy")
+    raise
+
+try:
+    from tqdm import tqdm
+except ImportError:
+    # Fallback: simple progress indicator
+    def tqdm(iterable, desc=None, disable=False):
+        """Simple fallback for tqdm"""
+        return iterable
 
 logger = logging.getLogger(__name__)
 
