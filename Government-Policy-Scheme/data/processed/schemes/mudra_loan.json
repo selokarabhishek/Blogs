@@ -1,0 +1,113 @@
+{
+  "scheme_id": "PMMY-MUDRA-2024",
+  "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+  "ministry": "Ministry of Finance",
+  "category": ["Business & Entrepreneurship", "Financial Assistance"],
+  "description": "Pradhan Mantri MUDRA Yojana provides loans at low rates of interest to small business units and individuals to enable them to set up or expand business in manufacturing, trading, and service sectors. MUDRA offers three types of loans: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh).",
+  "eligibility": {
+    "min_age": 18,
+    "max_age": 65,
+    "gender": ["All"],
+    "category": ["All"],
+    "min_income": null,
+    "max_income": null,
+    "states": [],
+    "occupation": ["Business", "Self-employed", "Unemployed"],
+    "education": [],
+    "marital_status": [],
+    "disability": null,
+    "bpl_card": null,
+    "rural_area": null,
+    "custom_criteria": {
+      "business_type": "Small businesses in manufacturing, trading, or services",
+      "existing_loan": "Should not have defaulted on previous loans"
+    }
+  },
+  "benefits": {
+    "benefit_type": ["Loan"],
+    "amount": null,
+    "amount_min": 50000,
+    "amount_max": 1000000,
+    "description": "Collateral-free loans for small businesses. Three categories: Shishu (up to ₹50,000), Kishore (₹50,001-₹5 lakh), Tarun (₹5-10 lakh). Interest rates typically 8-12% per annum. Repayment period: 3-7 years",
+    "duration": "3-7 years repayment",
+    "is_recurring": false
+  },
+  "documents_required": [
+    {
+      "name": "Aadhaar Card",
+      "is_mandatory": true,
+      "description": "Valid Aadhaar card for identification"
+    },
+    {
+      "name": "PAN Card",
+      "is_mandatory": true,
+      "description": "Permanent Account Number"
+    },
+    {
+      "name": "Business Plan",
+      "is_mandatory": true,
+      "description": "Detailed business plan with projections"
+    },
+    {
+      "name": "Address Proof",
+      "is_mandatory": true,
+      "description": "Utility bill, rent agreement, or passport"
+    },
+    {
+      "name": "Bank Statements",
+      "is_mandatory": true,
+      "description": "Last 6 months bank statements"
+    },
+    {
+      "name": "Passport Size Photographs",
+      "is_mandatory": true,
+      "description": "Recent passport size photos"
+    },
+    {
+      "name": "Caste Certificate",
+      "is_mandatory": false,
+      "description": "For SC/ST/OBC applicants (may get preference)"
+    },
+    {
+      "name": "Business Registration",
+      "is_mandatory": false,
+      "description": "For existing businesses - GST/Shop Act registration"
+    }
+  ],
+  "application_process": {
+    "mode": ["Online", "Offline"],
+    "steps": [
+      "Visit MUDRA portal or nearest bank/NBFC",
+      "Download and fill MUDRA loan application form",
+      "Attach required documents and business plan",
+      "Submit to bank/NBFC branch",
+      "Bank will verify documents and assess business viability",
+      "Loan sanctioned and disbursed to bank account",
+      "Start EMI repayment as per schedule"
+    ],
+    "website": "https://www.mudra.org.in",
+    "helpline": "1800-180-1111",
+    "processing_time": "15-30 days"
+  },
+  "source_url": "https://www.mudra.org.in",
+  "source_document": null,
+  "last_updated": "2024-01-20T00:00:00",
+  "is_active": true,
+  "launch_date": "2015-04-08T00:00:00",
+  "end_date": null,
+  "tags": [
+    "mudra",
+    "business loan",
+    "entrepreneurship",
+    "self employed",
+    "MSME",
+    "startup",
+    "collateral free",
+    "PM scheme"
+  ],
+  "related_schemes": ["STAND-UP-INDIA", "STARTUP-INDIA"],
+  "success_stories": [
+    "Over 38 crore loans sanctioned worth ₹20 lakh crore since 2015",
+    "68% loans given to women entrepreneurs"
+  ]
+}

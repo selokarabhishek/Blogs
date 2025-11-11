@@ -1,0 +1,89 @@
+{
+  "scheme_id": "PM-KISAN-2024",
+  "name": "PM-KISAN Samman Nidhi Yojana",
+  "ministry": "Ministry of Agriculture & Farmers Welfare",
+  "category": ["Agriculture & Farming", "Financial Assistance"],
+  "description": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector Scheme that provides income support to all landholding farmers' families across the country, to supplement their financial needs for procuring various inputs related to agriculture and allied activities as well as domestic needs.",
+  "eligibility": {
+    "min_age": 18,
+    "max_age": null,
+    "gender": ["All"],
+    "category": ["All"],
+    "min_income": null,
+    "max_income": null,
+    "states": [],
+    "occupation": ["Farmer"],
+    "education": [],
+    "marital_status": [],
+    "disability": null,
+    "bpl_card": null,
+    "rural_area": null,
+    "custom_criteria": {
+      "land_ownership": "Must own cultivable land"
+    }
+  },
+  "benefits": {
+    "benefit_type": ["Grant"],
+    "amount": 6000,
+    "amount_min": 6000,
+    "amount_max": 6000,
+    "description": "Financial benefit of ₹6000 per year in three equal installments of ₹2000 each, directly transferred to bank accounts of beneficiary farmers",
+    "duration": "Annual",
+    "is_recurring": true
+  },
+  "documents_required": [
+    {
+      "name": "Aadhaar Card",
+      "is_mandatory": true,
+      "description": "Valid Aadhaar card for identification"
+    },
+    {
+      "name": "Bank Account Details",
+      "is_mandatory": true,
+      "description": "Active bank account with IFSC code"
+    },
+    {
+      "name": "Land Ownership Documents",
+      "is_mandatory": true,
+      "description": "Land records showing ownership (Khata/Khatauni)"
+    },
+    {
+      "name": "Citizenship Certificate",
+      "is_mandatory": true,
+      "description": "Proof of Indian citizenship"
+    }
+  ],
+  "application_process": {
+    "mode": ["Online", "Offline"],
+    "steps": [
+      "Visit PM-KISAN portal or nearest CSC",
+      "Click on 'New Farmer Registration'",
+      "Enter Aadhaar number and verify",
+      "Fill registration form with personal and land details",
+      "Upload required documents",
+      "Submit application and note registration number",
+      "Track application status online"
+    ],
+    "website": "https://pmkisan.gov.in",
+    "helpline": "155261 / 011-24300606",
+    "processing_time": "30-45 days"
+  },
+  "source_url": "https://pmkisan.gov.in",
+  "source_document": null,
+  "last_updated": "2024-01-15T00:00:00",
+  "is_active": true,
+  "launch_date": "2019-02-01T00:00:00",
+  "end_date": null,
+  "tags": [
+    "farmer",
+    "agriculture",
+    "direct benefit transfer",
+    "income support",
+    "central scheme",
+    "PM scheme"
+  ],
+  "related_schemes": ["PM-FASAL-BIMA", "KCC-LOAN"],
+  "success_stories": [
+    "Over 11 crore farmers benefited with ₹2.2 lakh crore disbursed since 2019"
+  ]
+}

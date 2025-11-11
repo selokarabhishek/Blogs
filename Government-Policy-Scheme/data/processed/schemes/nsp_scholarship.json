@@ -1,0 +1,109 @@
+{
+  "scheme_id": "NSP-SCHOLARSHIP-2024",
+  "name": "National Scholarship Portal - Post Matric Scholarship for SC/ST/OBC",
+  "ministry": "Ministry of Social Justice and Empowerment",
+  "category": ["Education & Scholarships", "Social Welfare"],
+  "description": "The Post Matric Scholarship Scheme provides financial assistance to students from SC, ST, and OBC categories pursuing higher education after Class 10. The scheme aims to provide financial assistance to SC/ST/OBC students studying in Classes 11 and 12, and pursuing post-matriculation or post-secondary studies to enable them to complete their education.",
+  "eligibility": {
+    "min_age": 15,
+    "max_age": 35,
+    "gender": ["All"],
+    "category": ["SC", "ST", "OBC"],
+    "min_income": null,
+    "max_income": 250000,
+    "states": [],
+    "occupation": ["Student"],
+    "education": ["10th Pass", "12th Pass", "Graduate", "Post-graduate"],
+    "marital_status": [],
+    "disability": null,
+    "bpl_card": null,
+    "rural_area": null,
+    "custom_criteria": {
+      "education_level": "Must be studying in Class 11 or above",
+      "previous_year_percentage": "Minimum 50% in previous exam"
+    }
+  },
+  "benefits": {
+    "benefit_type": ["Scholarship"],
+    "amount": null,
+    "amount_min": 1000,
+    "amount_max": 50000,
+    "description": "Maintenance allowance ranging from ₹380 to ₹1200 per month depending on course. Additional reimbursement for tuition fees, study tours, thesis typing, book allowance up to ₹5000-50000 annually based on course type",
+    "duration": "Annual (renewable)",
+    "is_recurring": true
+  },
+  "documents_required": [
+    {
+      "name": "Aadhaar Card",
+      "is_mandatory": true,
+      "description": "Valid Aadhaar card"
+    },
+    {
+      "name": "Caste Certificate",
+      "is_mandatory": true,
+      "description": "SC/ST/OBC certificate from competent authority"
+    },
+    {
+      "name": "Income Certificate",
+      "is_mandatory": true,
+      "description": "Family income certificate (must be below ₹2.5 lakh annually)"
+    },
+    {
+      "name": "Previous Year Marksheet",
+      "is_mandatory": true,
+      "description": "Marksheet of previous qualifying exam"
+    },
+    {
+      "name": "Current Year Admission Proof",
+      "is_mandatory": true,
+      "description": "Admission letter or bonafide certificate"
+    },
+    {
+      "name": "Bank Account Details",
+      "is_mandatory": true,
+      "description": "Bank passbook or cancelled cheque"
+    },
+    {
+      "name": "Fee Receipt",
+      "is_mandatory": false,
+      "description": "Fee receipt from institution"
+    }
+  ],
+  "application_process": {
+    "mode": ["Online"],
+    "steps": [
+      "Visit National Scholarship Portal (NSP)",
+      "Register with valid credentials",
+      "Login and select 'Post Matric Scholarship for SC/ST/OBC'",
+      "Fill application form with personal, academic, and bank details",
+      "Upload all required documents (PDF format, max 200KB each)",
+      "Submit application before deadline",
+      "Institute will verify application",
+      "Scholarship disbursed directly to bank account after approval"
+    ],
+    "website": "https://scholarships.gov.in",
+    "helpline": "0120-6619540",
+    "processing_time": "60-90 days after verification"
+  },
+  "source_url": "https://scholarships.gov.in",
+  "source_document": null,
+  "last_updated": "2024-01-10T00:00:00",
+  "is_active": true,
+  "launch_date": "2012-01-01T00:00:00",
+  "end_date": null,
+  "tags": [
+    "scholarship",
+    "education",
+    "SC",
+    "ST",
+    "OBC",
+    "students",
+    "post matric",
+    "NSP",
+    "higher education"
+  ],
+  "related_schemes": ["NSP-PRE-MATRIC", "MERIT-CUM-MEANS"],
+  "success_stories": [
+    "Over 50 lakh students receive scholarships annually worth ₹8000 crore"
+  ]
+}

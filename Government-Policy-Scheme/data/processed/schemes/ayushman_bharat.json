@@ -1,0 +1,91 @@
+{
+  "scheme_id": "PMJAY-AB-2024",
+  "name": "Pradhan Mantri Jan Arogya Yojana (Ayushman Bharat)",
+  "ministry": "Ministry of Health and Family Welfare",
+  "category": ["Healthcare", "Social Welfare"],
+  "description": "Ayushman Bharat PM-JAY is the world's largest health insurance scheme providing health cover of ₹5 lakh per family per year for secondary and tertiary care hospitalization. It covers over 10.74 crore poor and vulnerable families (approximately 50 crore beneficiaries). The scheme is entirely paperless and cashless at government and empanelled private hospitals.",
+  "eligibility": {
+    "min_age": null,
+    "max_age": null,
+    "gender": ["All"],
+    "category": ["All"],
+    "min_income": null,
+    "max_income": null,
+    "states": [],
+    "occupation": [],
+    "education": [],
+    "marital_status": [],
+    "disability": null,
+    "bpl_card": true,
+    "rural_area": null,
+    "custom_criteria": {
+      "secc_database": "Family must be in SECC-2011 database",
+      "deprivation_criteria": "Must meet deprivation criteria or belong to listed occupational category"
+    }
+  },
+  "benefits": {
+    "benefit_type": ["Insurance"],
+    "amount": 500000,
+    "amount_min": 500000,
+    "amount_max": 500000,
+    "description": "Health insurance cover of ₹5 lakh per family per year for hospitalization. Covers 1,393 medical procedures including surgeries, medical treatments, day care, pre and post hospitalization expenses. Entirely cashless and paperless at all empanelled hospitals. No cap on family size or age. Pre-existing diseases covered from day one",
+    "duration": "Annual (renewable)",
+    "is_recurring": true
+  },
+  "documents_required": [
+    {
+      "name": "Aadhaar Card",
+      "is_mandatory": true,
+      "description": "Aadhaar card of family members"
+    },
+    {
+      "name": "Ration Card",
+      "is_mandatory": false,
+      "description": "BPL ration card (if available)"
+    },
+    {
+      "name": "Mobile Number",
+      "is_mandatory": true,
+      "description": "Active mobile number for OTP verification"
+    }
+  ],
+  "application_process": {
+    "mode": ["Online", "Offline"],
+    "steps": [
+      "Check eligibility on Ayushman Bharat portal using mobile number",
+      "If eligible, visit nearest Common Service Centre (CSC) or Ayushman Mitra",
+      "Provide Aadhaar card and mobile number",
+      "Get Ayushman card (e-card) generated instantly",
+      "For hospitalization: Visit empanelled hospital",
+      "Show Ayushman card and Aadhaar",
+      "Hospital verifies eligibility and provides cashless treatment",
+      "No payment required at hospital"
+    ],
+    "website": "https://pmjay.gov.in",
+    "helpline": "14555",
+    "processing_time": "Instant e-card generation"
+  },
+  "source_url": "https://pmjay.gov.in",
+  "source_document": null,
+  "last_updated": "2024-01-25T00:00:00",
+  "is_active": true,
+  "launch_date": "2018-09-23T00:00:00",
+  "end_date": null,
+  "tags": [
+    "health",
+    "insurance",
+    "ayushman bharat",
+    "PMJAY",
+    "healthcare",
+    "hospitalization",
+    "BPL",
+    "free treatment",
+    "cashless"
+  ],
+  "related_schemes": ["HEALTH-WELLNESS-CENTRES", "ESIS"],
+  "success_stories": [
+    "Over 5 crore hospital treatments provided",
+    "₹60,000+ crore worth of treatment given free",
+    "24,000+ hospitals empanelled across India"
+  ]
+}

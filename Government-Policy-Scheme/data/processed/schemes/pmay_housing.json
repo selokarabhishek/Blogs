@@ -1,0 +1,111 @@
+{
+  "scheme_id": "PMAY-URBAN-2024",
+  "name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+  "ministry": "Ministry of Housing and Urban Affairs",
+  "category": ["Housing & Infrastructure", "Financial Assistance"],
+  "description": "PMAY-Urban is a flagship mission to provide affordable housing to urban poor. The scheme offers interest subsidy on home loans, direct assistance for house construction, and affordable housing in partnership with private developers. Target is to provide pucca houses with basic amenities to all eligible families.",
+  "eligibility": {
+    "min_age": 21,
+    "max_age": 70,
+    "gender": ["All"],
+    "category": ["All"],
+    "min_income": null,
+    "max_income": 1800000,
+    "states": [],
+    "occupation": [],
+    "education": [],
+    "marital_status": [],
+    "disability": null,
+    "bpl_card": null,
+    "rural_area": false,
+    "custom_criteria": {
+      "house_ownership": "No pucca house in name of any family member",
+      "previous_subsidy": "Should not have availed central assistance under any housing scheme",
+      "income_groups": "EWS (up to ₹3L), LIG (₹3-6L), MIG-I (₹6-12L), MIG-II (₹12-18L)"
+    }
+  },
+  "benefits": {
+    "benefit_type": ["Subsidy", "Grant"],
+    "amount": null,
+    "amount_min": 150000,
+    "amount_max": 267000,
+    "description": "Credit Linked Subsidy: Interest subsidy up to ₹2.67 lakh on home loans. Subsidy rates: EWS/LIG: 6.5% on loans up to ₹6 lakh, MIG-I: 4% on loans up to ₹9 lakh, MIG-II: 3% on loans up to ₹12 lakh. Direct assistance of ₹1.5 lakh for EWS beneficiaries",
+    "duration": "One-time benefit",
+    "is_recurring": false
+  },
+  "documents_required": [
+    {
+      "name": "Aadhaar Card",
+      "is_mandatory": true,
+      "description": "Valid Aadhaar card"
+    },
+    {
+      "name": "Income Certificate",
+      "is_mandatory": true,
+      "description": "Annual income certificate from competent authority"
+    },
+    {
+      "name": "Caste Certificate",
+      "is_mandatory": false,
+      "description": "For SC/ST/OBC applicants"
+    },
+    {
+      "name": "Property Documents",
+      "is_mandatory": true,
+      "description": "Property papers for house purchase/construction"
+    },
+    {
+      "name": "Bank Account Details",
+      "is_mandatory": true,
+      "description": "Active bank account"
+    },
+    {
+      "name": "Residence Proof",
+      "is_mandatory": true,
+      "description": "Proof of residence in urban area"
+    },
+    {
+      "name": "Swachh Bharat Mission Declaration",
+      "is_mandatory": true,
+      "description": "Undertaking to construct toilet"
+    }
+  ],
+  "application_process": {
+    "mode": ["Online"],
+    "steps": [
+      "Visit PMAY-U official portal",
+      "Select applicable component (CLSS, In-situ, AHP, BLC)",
+      "Fill online application form",
+      "Enter Aadhaar number for validation",
+      "Upload required documents",
+      "Submit application and note application ID",
+      "For loan subsidy: Apply through lending institution",
+      "Track application status online"
+    ],
+    "website": "https://pmaymis.gov.in",
+    "helpline": "011-23060484",
+    "processing_time": "45-60 days"
+  },
+  "source_url": "https://pmaymis.gov.in",
+  "source_document": null,
+  "last_updated": "2024-01-18T00:00:00",
+  "is_active": true,
+  "launch_date": "2015-06-25T00:00:00",
+  "end_date": "2024-12-31T00:00:00",
+  "tags": [
+    "housing",
+    "PMAY",
+    "home loan",
+    "subsidy",
+    "EWS",
+    "LIG",
+    "MIG",
+    "urban",
+    "affordable housing"
+  ],
+  "related_schemes": ["PMAY-GRAMIN", "CLSS"],
+  "success_stories": [
+    "Over 1.2 crore houses sanctioned",
+    "₹7.6 lakh crore investment approved"
+  ]
+}
